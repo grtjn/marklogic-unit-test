@@ -34,6 +34,7 @@ signing {
   sign configurations.archives
 }
 
+/*
 publishing {
   publications {
     mainJava(MavenPublication) {
@@ -79,6 +80,7 @@ publishing {
     }
   }
 }
+*/
 
 task createHttpCredentials(type: com.marklogic.gradle.task.MarkLogicTask) {
   doLast {
